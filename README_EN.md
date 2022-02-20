@@ -29,7 +29,7 @@ Parameter | Description
 -p | The packages which need to be obfuscated 
 
 ```java
-    BlackObfuscatorCmd.main("d2j-black-obfuscator",
+    BlackObfuscatorCmd.main("d2j-black-obfuscator", 
             "-d", "2",
             "-i", "/Users/milk/Documents/classes.dex",
             "-o", "/Users/milk/Documents/classes_out.dex",
